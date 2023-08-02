@@ -7,12 +7,12 @@
     "registry": "http://3.109.1.201:9980/mithuntechnologies/repository/mss-nodejsrepo/"
   },
   
-  "scripts": {
-    "server": "http-server -c-1 -p 9999",
-    "start1": "nodemon app.js",
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "sonar": "node sonar-project.js"
+   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint ."
   },
   "dependencies": {
     "cfenv": "^1.1.0",
